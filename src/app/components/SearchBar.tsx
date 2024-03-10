@@ -20,7 +20,7 @@ const SearchBar = ({onSearch} : SearchBarProps) => {
     <form onSubmit={handleSubmit} className="flex items-center w-screen max-w-3xl">
       <input 
         type='text' 
-        className="border border-gray-300 rounded-xl py-2 px-4 w-full m-3 focus:outline-none focus:border-green-500" 
+        className="border border-gray-300 rounded-xl py-2 px-4 w-full m-3 text-black focus:outline-none focus:border-green-500" 
         value={query}
         onChange={handleChange}
       />
